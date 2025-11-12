@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="28.2.9">
+  <diagram name="ReciPy Class Diagram" id="recipy-diagram">
+    <mxGraphModel dx="1226" dy="1456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QMainWindow" value="&lt;&lt;library&gt;&gt;&#xa;QMainWindow" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f5f5f5;strokeColor=#666666;swimlaneFillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="510" y="-120" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MainWindow1" value="MainWindow1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=#FFEBCC;strokeColor=#D35400;swimlaneFillColor=#FFF4E6;" parent="1" vertex="1">
+          <mxGeometry x="340" y="50" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="MainWindow1-methods" value="+ __init__()&#xa;+ open_second_window_by_name()&#xa;+ open_second_window_by_category()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="MainWindow1" vertex="1">
+          <mxGeometry y="40" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MainWindow2" value="MainWindow2" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=#FFEBCC;strokeColor=#D35400;swimlaneFillColor=#FFF4E6;" parent="1" vertex="1">
+          <mxGeometry x="660" y="60" width="440" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="MainWindow2-attrs" value="- search_text: str&#xa;- search_by: str&#xa;- recipes: dict" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="MainWindow2" vertex="1">
+          <mxGeometry y="40" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MainWindow2-methods" value="+ __init__(search_text, search_by)&#xa;+ load_recipes() → dict&#xa;+ e_list()&#xa;+ show_recipe(item)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="MainWindow2" vertex="1">
+          <mxGeometry x="220" y="40" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="inherit1" value="" style="endArrow=block;endFill=1;endSize=6;strokeColor=#D35400;strokeWidth=2;" parent="1" source="MainWindow1" target="QMainWindow" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inherit2" value="" style="endArrow=block;endFill=1;endSize=6;strokeColor=#D35400;strokeWidth=2;" parent="1" source="MainWindow2" target="QMainWindow" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="creates" value="создаёт" style="endArrow=open;endFill=0;dashed=1;strokeColor=#5D4037;" parent="1" source="MainWindow1" target="MainWindow2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="170" as="sourcePoint" />
+            <mxPoint x="560" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="json" value="&lt;&lt;file&gt;&gt;&#xa;all_recipes.json" style="shape=folder;fillColor=#F8C471;strokeColor=#D35400;" parent="1" vertex="1">
+          <mxGeometry x="810" y="280" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uses" value="читает" style="endArrow=open;endFill=0;strokeColor=#5D4037;" parent="1" source="MainWindow2" target="json" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
