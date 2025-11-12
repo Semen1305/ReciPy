@@ -80,7 +80,7 @@ font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;</string>
              </sizepolicy>
             </property>
             <property name="styleSheet">
-             <string notr="true">background-image: url(C:/Users/Сергей/Desktop/картинки/sup.png);
+             <string notr="true">background-image: url(image/sup.png);
 background-repeat: no-repeat;
 background-position: center;
 background-origin: content;
@@ -104,7 +104,7 @@ background-clip: padding;
              </sizepolicy>
             </property>
             <property name="styleSheet">
-             <string notr="true">background-image: url(C:/Users/Сергей/Desktop/картинки/vtoroe.png);
+             <string notr="true">background-image: url(image/vtoroe.png);
 background-repeat: no-repeat;
 background-position: center;
 background-origin: content;
@@ -127,7 +127,7 @@ background-clip: padding;</string>
              </sizepolicy>
             </property>
             <property name="styleSheet">
-             <string notr="true">background-image: url(C:/Users/Сергей/Desktop/картинки/desert.png);
+             <string notr="true">background-image: url(image/desert.png);
 background-repeat: no-repeat;
 background-position: center;
 background-origin: content;
@@ -150,7 +150,7 @@ background-clip: padding;</string>
              </sizepolicy>
             </property>
             <property name="styleSheet">
-             <string notr="true">background-image: url(C:/Users/Сергей/Desktop/картинки/vipechka.png);
+             <string notr="true">background-image: url(image/vipechka.png);
 background-repeat: no-repeat;
 background-position: center;
 background-origin: content;
@@ -174,7 +174,7 @@ background-clip: padding;
              </sizepolicy>
             </property>
             <property name="styleSheet">
-             <string notr="true">background-image: url(C:/Users/Сергей/Desktop/картинки/napitok.png);
+             <string notr="true">background-image: url(image/napitok.png);
 background-repeat: no-repeat;
 background-position: center;
 background-origin: content;
@@ -202,7 +202,7 @@ background-clip: padding;
              </sizepolicy>
             </property>
             <property name="styleSheet">
-             <string notr="true">background-image: url(C:/Users/Сергей/Desktop/картинки/zagotovki.png);
+             <string notr="true">background-image: url(image/zagotovki.png);
 background-repeat: no-repeat;
 background-position: center;
 background-origin: content;
@@ -226,7 +226,7 @@ background-clip: padding;
              </sizepolicy>
             </property>
             <property name="styleSheet">
-             <string notr="true">background-image: url(C:/Users/Сергей/Desktop/картинки/salad.png);
+             <string notr="true">background-image: url(image/salad.png);
 background-repeat: no-repeat;
 background-position: center;
 background-origin: content;
@@ -250,7 +250,7 @@ background-clip: padding;
              </sizepolicy>
             </property>
             <property name="styleSheet">
-             <string notr="true">background-image: url(C:/Users/Сергей/Desktop/картинки/zakuski.png);
+             <string notr="true">background-image: url(image/zakuski.png);
 background-repeat: no-repeat;
 background-position: center;
 background-origin: content;
@@ -274,7 +274,7 @@ background-clip: padding;
              </sizepolicy>
             </property>
             <property name="styleSheet">
-             <string notr="true">background-image: url(C:/Users/Сергей/Desktop/картинки/testo.png);
+             <string notr="true">background-image: url(image/testo.png);
 background-repeat: no-repeat;
 background-position: center;
 background-origin: content;
@@ -298,7 +298,7 @@ background-clip: padding;
              </sizepolicy>
             </property>
             <property name="styleSheet">
-             <string notr="true">background-image: url(C:/Users/Сергей/Desktop/картинки/sousi.png);
+             <string notr="true">background-image: url(image/sousi.png);
 background-repeat: no-repeat;
 background-position: center;
 background-origin: content;
