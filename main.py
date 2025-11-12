@@ -4,6 +4,10 @@ import json
 from PyQt6.QtCore import Qt
 from PyQt6 import uic
 from PyQt6.QtWidgets import QApplication, QMainWindow, QListWidgetItem
+from PyQt6.QtWidgets import QApplication, QPushButton, QWidget, QVBoxLayout
+from PyQt6.QtGui import QPainter, QColor, QFontMetrics
+from PyQt6.QtCore import QRect, Qt
+
 
 main_window = """<?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
@@ -250,7 +254,7 @@ background-clip: padding;
              </sizepolicy>
             </property>
             <property name="styleSheet">
-             <string notr="true">background-image: url(image/zakuski.png);
+             <string notr="true">background-image: url(image/zakuski_.png);
 background-repeat: no-repeat;
 background-position: center;
 background-origin: content;
@@ -464,7 +468,9 @@ font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;</string>
 """
 
 
+
 class MainWindow(QMainWindow):
+
     def __init__(self):
         super().__init__()
         # Загружаем UI главного окна из строки
