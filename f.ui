@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow1</class>
+ <widget class="QMainWindow" name="MainWindow1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1059</width>
+    <height>725</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Рецепты</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../картинки/icon.png</normaloff>../картинки/icon.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color: black;
+font-weight: bold;
+font-size: 16pt;
+font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="styleSheet">
+           <string notr="true">color: black;
+font-weight: bold;
+font-size: 16pt;
+font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;</string>
+          </property>
+          <property name="text">
+           <string>Название рецептов</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QListWidget" name="listWidget">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(230, 230, 255);
+</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QLabel" name="label_2">
+            <property name="styleSheet">
+             <string notr="true">color: black;
+font-weight: bold;
+font-size: 16pt;
+font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;</string>
+            </property>
+            <property name="text">
+             <string>Ингредиенты</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QListWidget" name="ingr">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 226, 246);
+</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <widget class="QLabel" name="label_3">
+            <property name="styleSheet">
+             <string notr="true">color: black;
+font-weight: bold;
+font-size: 16pt;
+font-family: &quot;Comic Sans MS&quot;, cursive, sans-serif;</string>
+            </property>
+            <property name="text">
+             <string>Шаги приготовления</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QListWidget" name="listWidget_3">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 227, 224);
+</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1059</width>
+     <height>36</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
+
